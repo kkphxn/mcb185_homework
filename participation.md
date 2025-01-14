@@ -38,7 +38,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Asked for my classmates names
 	+ Introduced myself to them
 	+ Attended class Thursday
-	Total 4 points
+	+ Total 4 points
 - Week 3
 - Week 4
 - Week 5

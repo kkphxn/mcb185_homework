@@ -36,7 +36,7 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 2
 	+ Attended class Tuesday
 	+ Asked for my classmates names
-	+ Introduced myself to them
+	+ Asked a question in the discord
 	+ Attended class Thursday
 	+ Asked someone if they are doing an assessment alone or with someone
 	+ Total 5 points

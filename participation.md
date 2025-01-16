@@ -38,7 +38,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I asked Emma if she was doing an assessment with Michelle
 	+ Asked a question in the discord
 	+ Attended class Thursday
-	+ I met Jasmine on Thursday
+	+ I met Jasmine & Steven on Thursday
 	+ Total 5 points
 - Week 3
 - Week 4

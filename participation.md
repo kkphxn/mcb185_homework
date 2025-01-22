@@ -41,6 +41,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I met Jasmine & Steven on Thursday
 	+ Total 5 points
 - Week 3
+	+ Attended class Tuesday
+	+ Attempted the in class assessment
+	+ Asked a question about the assessment
+	+ Attended Class Thursday
+	+ Helped Jasmine on one of the in class tasks
+	+ Total 5 points
 - Week 4
 - Week 5
 - Week 6

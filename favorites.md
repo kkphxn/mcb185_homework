@@ -1,7 +1,7 @@
 fruits i like
 --------------
 
-**mangoes**
+**mangoes** and
 _peaches_
 
 my favorite season

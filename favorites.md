@@ -1,13 +1,13 @@
-fruits i like
+- fruits i like
 --------------
 	+ **mangoes**
 	+ **peaches**
 
-my favorite season
+- my favorite season
 ==================
 1. spring is my number one
 
-## animals ##
-	- *cat*
-	- **meow**
-	- _dog_
+- ## animals ##
++ *cat*
++ **meow**
++ _dog_

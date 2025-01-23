@@ -5,4 +5,9 @@ fruits i like
 
 my favorite season
 ==================
-	+ spring
+1. spring is my number one
+
+## animals ##
+	- *cat*
+	- **meow**
+	- _dog_

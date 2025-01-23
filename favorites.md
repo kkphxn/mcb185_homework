@@ -11,5 +11,6 @@ spring is my number one
 
 ## animals ##
 
-* **cat**
+* **guinea pigs**
 * _dog_
+* `sea otters`

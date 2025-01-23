@@ -14,5 +14,3 @@ _spring is my number one_
 * **guinea pigs**
 * _dog_
 * `sea otters`
-
-`this is my favorite markdown to use`

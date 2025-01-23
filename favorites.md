@@ -1,13 +1,12 @@
 fruits i like
 --------------
 
-**mangoes** and
-_peaches_
+- **mangoes**
++ _peaches_
 
 my favorite season
 ==================
-
-_spring is my number one_
+- _spring is my number one_
 
 ## animals ##
 

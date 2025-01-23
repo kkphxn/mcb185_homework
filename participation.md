@@ -42,7 +42,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Total 5 points
 - Week 3
 	+ Attended class Tuesday
-	+ Attempted the in class assessment
+	+ Assisted Jasmine on the in class assessment
 	+ Asked a question in the discord
 	+ Passed unit 0 assessment!!! `yay`
 	+ Attended Class Thursday

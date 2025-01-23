@@ -1,8 +1,9 @@
 fruits i like
 --------------
 
-**mangoes**
-_peaches__
+	+ **mangoes**
+
+	+ _peaches_
 
 my favorite season
 ==================

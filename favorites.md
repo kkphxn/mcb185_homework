@@ -1,4 +1,4 @@
-'fruits i like'
-==============
-	+ mangoes
-	+ peaches
+fruits i like
+--------------
+	+ **mangos**
+	+ *peaches*

@@ -48,6 +48,11 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended Class Thursday
 	+ Total 5 points
 - Week 4
+	+ Didn't come to class Tuesday due to a car accident. A point for being alive?
+	+ Asked a question in the Discord
+	+ Attended class Thursday
+	+ Asked Lilith a question in class
+	+ Total 4 points
 - Week 5
 - Week 6
 - Week 7

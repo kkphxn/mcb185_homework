@@ -64,9 +64,11 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended office hours with Lilith
 	+ Attended class on Tuesday
 	+ Attempted Unit 2 Assessment in class
-	+ Passed Unit 2 and 3 Assessment
+	+ Passed Unit 1 and 2 Assessment
 	+ Attended class Thursday
 - Week 7
+	+ Attended Lilith's office hours with Alex
+	+ Attended class on Tuesday
 - Week 8
 - Week 9
 - Week 10

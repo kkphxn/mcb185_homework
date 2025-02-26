@@ -60,15 +60,23 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I met new people named Alex and Janet!
 	+ Met another person on the Coderie named Cat
 	+ Attended Class on Thursday
+	+ Total 5 points
 - Week 6
 	+ Attended office hours with Lilith
 	+ Attended class on Tuesday
 	+ Attempted Unit 2 Assessment in class
 	+ Passed Unit 1 and 2 Assessment
 	+ Attended class Thursday
+	+ Total 5 points
 - Week 7
 	+ Attended Lilith's office hours with Alex
 	+ Attended class on Tuesday
+	+ Attended a Coderie on Discord
+	+ Attended class Thursday
+	+ Attempted unit 3 assessment
+	+ Total 5 points
 - Week 8
+	+ Passed Unit 3 assessment!! 
+	+ Attended class Tuesday
 - Week 9
 - Week 10

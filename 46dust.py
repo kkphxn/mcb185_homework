@@ -42,9 +42,9 @@ def parse_fasta(input_file):
                 sequence.append(line)
         
         if header is not None:
-            sequences.append((header, ''.join(sequence)))  # Append the last sequence
+            sequences.append((header, ''.join(sequence)))  
 
-    print(f"Found {len(sequences)} sequences.")  # Debug: number of sequences found
+    print(f"Found {len(sequences)} sequences.")  
     if len(sequences) == 0:
         print("No sequences found in the file.")
     return sequences
@@ -53,21 +53,19 @@ def write_output(output_records, output_file):
     with open(output_file, 'w') as out_handle:
         for header, sequence in output_records:
             out_handle.write(f"{header}\n")
-            # Wrap the sequence at 60 characters
             for i in range(0, len(sequence), 60):
                 out_handle.write(f"{sequence[i:i+60]}\n")
-    print(f"Output written to {output_file}")  # Debug: output file written
+    print(f"Output written to {output_file}")  
 
 def process_fasta(input_file, window_size, entropy_threshold):
     sequences = parse_fasta(input_file)
     output_records = []
 
     for header, sequence in sequences:
-        print(f"Processing sequence: {header}")  # Debug: sequence being processed
-        # Mask low-complexity regions in the sequence
+        print(f"Processing sequence: {header}") 
         masked_sequence = mask_low_complexity(sequence, window_size, entropy_threshold)
         
-        print(f"Masked sequence (first 100 chars): {masked_sequence[:100]}")  # Debug: print first 100 chars of masked sequence
+        print(f"Masked sequence (first 100 chars): {masked_sequence[:100]}")  
         output_records.append((header, masked_sequence))
 
     return output_records

@@ -2,7 +2,6 @@ import sys
 import math
 
 def calculate_entropy(sequence):
-    """Calculate the Shannon entropy of a sequence"""
     seq_length = len(sequence)
     counts = {}
     for base in sequence:
@@ -16,20 +15,17 @@ def calculate_entropy(sequence):
     return entropy
 
 def mask_low_complexity(sequence, window_size, entropy_threshold):
-    """Mask low complexity regions based on entropy threshold"""
     seq_list = list(sequence)  # Convert to list for easier mutation
     for i in range(len(sequence) - window_size + 1):
         window = sequence[i:i + window_size]
         entropy = calculate_entropy(window)
         
-        # If entropy is below the threshold, mask with 'N'
-        if entropy < entropy_threshold:
+                if entropy < entropy_threshold:
             seq_list[i:i + window_size] = ['N'] * window_size
     
     return ''.join(seq_list)
 
 def parse_fasta(input_file):
-    """Parse a multi-FASTA file and return a list of (header, sequence) tuples"""
     sequences = []
     with open(input_file, 'r') as file:
         header = None
@@ -54,7 +50,6 @@ def parse_fasta(input_file):
     return sequences
 
 def write_output(output_records, output_file):
-    """Write the processed sequences to the output file in multi-FASTA format"""
     with open(output_file, 'w') as out_handle:
         for header, sequence in output_records:
             out_handle.write(f"{header}\n")
@@ -64,7 +59,6 @@ def write_output(output_records, output_file):
     print(f"Output written to {output_file}")  # Debug: output file written
 
 def process_fasta(input_file, window_size, entropy_threshold):
-    """Process a multi-FASTA file and mask low complexity regions"""
     sequences = parse_fasta(input_file)
     output_records = []
 

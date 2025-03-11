@@ -1,52 +1,40 @@
 import sys
 
-def dtc(P, Q):
-    return sum(abs(p - q) for p, q in zip(P, Q))
+colorfile = sys.argv[1]
 
-def find_closest_color(colorfile, R, G, B):
-    min_distance = float('inf')
-    closest_color = None
+target = [0,0,0]
+target[0] = int(sys.argv[2])
+target[1] = int(sys.argv[3])
+target[2] = int(sys.argv[4])
 
-    try:
-        with open(colorfile, 'r') as file:
-            for line in file:
-                if line.startswith('#') or not line.strip():
-                    continue
-                fields = line.strip().split('\t')
-                if len(fields) < 4: 
-                    continue
-                name = fields[0]
-                try:
-                    r, g, b = map(int, fields[1:4])
-                except ValueError:
-                    continue 
+########################################
 
-                distance = dtc((R, G, B), (r, g, b))
-                if distance < min_distance:
-                    min_distance = distance
-                    closest_color = name
-    except FileNotFoundError:
-        print(f"Error: File '{colorfile}' not found.")
-        sys.exit(1)
+def dtc(D, Q): #calc distance #modify P
+    P = D.split(',')
 
-    return closest_color
+    d = 0
+    for p, q in zip(P, Q):
+        d += abs(int(p) - q)
+    return d
 
-def run():
-    if len(sys.argv) != 5:
-        print("Usage: python3 45colorname.py <color_file> <R> <G> <B>")
-        sys.exit(1)
+########################################
 
-    colorfile = sys.argv[1]
-    try:
-        R, G, B = map(int, sys.argv[2:5])
-    except ValueError:
-        print("Error: RGB values must be integers.")
-        sys.exit(1)
+with open(colorfile, 'rt') as fp: #create list of only RGB values
+    cols = []
+    colors = []
+    
+    for line in fp:
+        cols.append(line.split()[2])
+        colors.append(line.split()[0])
+    #print(cols)
 
-    closest_color = find_closest_color(colorfile, R, G, B)
-    if closest_color:
-        print(closest_color)
-    else:
-        print("No matching color found.")
+########################################
 
-run()
+idx = 0 # index of lowest number
+for i, col in enumerate(cols):
+    low = 1000 #massive inital low so first idx is always lower and will be initialized
+    if dtc(col, target) < low:
+        low == dtc(col, target)
+        idx = i
+
+print(colors[idx], cols[idx])

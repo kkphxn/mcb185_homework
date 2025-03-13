@@ -31,8 +31,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Thursday
 	+ Asked someone if they started any of the units
 	+ Made a Github repo
+	+ I met Michelle and Emma!
 	+ Attended class Thursday
-	+ Total 4 points
+	+ Total 5 points
 - Week 2
 	+ Attended class Tuesday
 	+ I asked Emma if she was doing an assessment with Michelle
@@ -79,8 +80,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Passed Unit 3 assessment!! 
 	+ Attended class Tuesday
 	+ Asked my classmate for help
+	+ Asked Jasmine on Discord for help on unit 4
 	+ Attended class on Thursday
-	+ Total 4 points
+	+ Total 5 points
 - Week 9
 	+ Attempted Unit 4 Assessment
 	+ Attended class Tuesday

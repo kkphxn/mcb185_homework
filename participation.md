@@ -95,5 +95,5 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Tuesday
 	+ Asked a question in Discord
 	+ Met Jayden off of Discord
-	+ Attended Cat's Coderie
+	+ Assisted Jasmine on unit 4 homework
 	+ Total 5 points

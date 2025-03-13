@@ -78,5 +78,20 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 8
 	+ Passed Unit 3 assessment!! 
 	+ Attended class Tuesday
+	+ Asked my classmate for help
+	+ Attended class on Thursday
+	+ Total 4 points
 - Week 9
+	+ Attempted Unit 4 Assessment
+	+ Attended class Tuesday
+	+ Asked a question in the discord
+	+ Attended class Thursday
+	+ Attended Alex's Coderie
+	+ Total 5 points
 - Week 10
+	+ Attended Lilith's office hours
+	+ Attended class Tuesday
+	+ Asked a question in Discord
+	+ Met Jayden off of Discord
+	+ Attended Cat's Coderie
+	+ Total 5 points

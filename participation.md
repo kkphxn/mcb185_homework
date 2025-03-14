@@ -58,7 +58,7 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 5
 	+ Attended class on Tuesday
 	+ Attended a Coderie
-	+ I met new people named Alex and Janet!
+	+ Asked Alex and Janet for help in the Coderie
 	+ Met another person on the Coderie named Cat
 	+ Attended Class on Thursday
 	+ Total 5 points

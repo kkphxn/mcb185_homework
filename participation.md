@@ -80,7 +80,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Passed Unit 3 assessment!! 
 	+ Attended class Tuesday
 	+ Asked my classmate for help
-	+ Asked Jasmine on Discord for help on unit 4
+	+ Helped Jasmine on unit 4 homework
 	+ Attended class on Thursday
 	+ Total 5 points
 - Week 9
